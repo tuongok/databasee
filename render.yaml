@@ -1,0 +1,6 @@
+services:
+  - name: json-server
+    type: web
+    runtime: node
+    startCommand: npm start
+    env: node
