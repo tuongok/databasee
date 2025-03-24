@@ -1,15 +1,13 @@
 {
   "name": "database",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "bash render-build.sh"
+    "start": "node server.js",  
+    "dev": "node server.js"   
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
-  }
+  "json-server": "0.17.4", 
+  "@vercel/node": "^2.0.0"
+}
 }
